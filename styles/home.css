@@ -3,3 +3,28 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+}
+
+.logo{
+    width: 94px;
+    height: 158px;
+}
+
+.logo img{
+    width: 100%;
+    height: auto;
+}
