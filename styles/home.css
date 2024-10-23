@@ -75,6 +75,7 @@
 
 .header-section{
     background-image: url("../img/slide1.jpg");
+    background-attachment: fixed;
 }
 
 .title-section{
@@ -163,4 +164,28 @@
 
 .social-foundation:hover{
     background-color: #f6e2e7;
+}
+
+.vision-section{
+    background-image: url('../img/vision.png');
+    background-attachment: fixed;
+}
+
+.vision-div{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding: 90px;
+}
+.vision-div h2{
+    color: #FFFFFF;
+    font-family: "TheMixBlack-Caps", Sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 0px;
+    margin-bottom: 40px;
 }
