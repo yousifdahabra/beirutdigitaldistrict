@@ -126,8 +126,41 @@
     align-content: center;
     justify-content: flex-start;
     align-items: center;
+    transition: background-color 300ms ease-out 100ms;/* https://blog.hubspot.com/website/css-hover-animation */
+    border-radius: 5px;
+    text-align: center;
+    font-family: TheMixSemiBold-Plain, Sans-serif;
 }
 
-.sub-foundation p{
-    text-align: center;
+.sub-foundation  p{
+    color: #646464;
+    font-size: 16px;
+    font-weight: 400;
+}
+.sub-foundation  h2{
+    font-family: TheMixBlack-Caps, Sans-serif;
+    font-size: 20px;
+}
+
+.sub-foundation-img{
+    /*I must ask about this*/
+    width: 158.56px;
+    height: 80px;
+    margin-bottom: 11px;
+}
+
+.sub-foundation-img img{
+    height: 100%;
+}
+
+.common-foundation:hover{
+    background-color: #dce8ef;
+}
+
+.sustainability-foundation:hover{
+    background-color: #ecefdc;
+}
+
+.social-foundation:hover{
+    background-color: #f6e2e7;
 }
