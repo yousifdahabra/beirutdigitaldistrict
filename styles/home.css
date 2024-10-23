@@ -351,7 +351,7 @@
     font-weight: 600;
     text-transform: uppercase
 }
-.trending-div > span{
+.trending-div > a{
     font-family: TheMixSemiBold-Plain, Sans-serif;
     font-size: 14.4px;
     font-weight: 400;
@@ -359,4 +359,42 @@
     border-radius: 30px 30px 30px 30px;
     padding: 0.8rem 2rem 0.8rem 2rem;
     color: white;
+}
+
+footer{
+    width: 100%;
+    background-color: #000;
+
+    margin-top: 20px;
+}
+.fott-1{
+    width: 95%;
+}
+.fott-1 > h2{
+    color: #B6B6B6;
+    font-family: "TheMixBlack-Caps", Sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+.fott-sect{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.fott-sect h2{
+    color: #646464;
+    font-family: TheMixBlack-Plain, Sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.fott-sect > ul{
+    list-style: none;
+    margin-left: 15px;
+    color: white;
+}
+
+.fott-sect > ul > li{
+    margin-top: 3px;
 }
