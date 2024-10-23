@@ -94,4 +94,40 @@
     text-align: center;
 }
 
+.foundation-section{
+    margin: 20px 0 ;
+}
 
+.foundation-section > h2{
+    color: #212121;
+    font-family: TheMixBlack-Caps, Sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.foundation-continer{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.sub-foundation{
+    background-color: white;
+    height: 513px;
+    width: 222px;
+    margin: 0px 15px 24px 15px;
+    padding: 2rem 2rem 2rem 2rem;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.sub-foundation p{
+    text-align: center;
+}
